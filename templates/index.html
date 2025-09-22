@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 
 {% block page_content %}
-  <h1>Hello{% if name %}, {{ name }}{% else %}, Stranger{% endif %}!</h1>
+  <h1>
+Hello{% if name %}, {{ name }}{% else %}, Stranger{% endif %}! 
+  Welcome to PRA2 Docker!
+</h1>
 
   {% if message %}
     <h3>{{ message }}</h3>
